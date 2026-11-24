@@ -24,6 +24,10 @@ public class Calculos {
        public double division (int x, int y){
         return x/y;
     }
+
+       public double porcentaje(double x, double porcentaje) {
+        return x * porcentaje / 100;
+    }
 }
 
 
